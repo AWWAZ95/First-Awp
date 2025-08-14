@@ -1,0 +1,45 @@
+img{
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    animation-name: Zal;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+@keyframes Zal{
+	0%{bottom:0; left:0;}
+	25%{bottom:px; left:99px;}
+	50%{bottom:0px; left:180px;}
+	75%{bottom:0; left:350px;}
+	100%{bottom:0; left:650px;}
+}
+div{
+	background-image: linear-gradient(lightcoral, teal);
+	animation-name: Zall;
+	animation-duration: 12s;
+	height: 85vh;
+}
+@keyframes Zall{
+	0%{background-image: linear-gradient(lightcoral, teal);}
+	25%{background-image: linear-gradient(coral, gray);}
+	50%{background-image: linear-gradient(lightblue, lightsalmon);}
+	75%{background-image: linear-gradient(gray, brown);}
+	100%{background-image: linear-gradient(lavenderblush, gray);}
+}
+ul{
+	list-style-type: none;
+	display: flex;
+}
+ul li{
+	padding-left: 70px;
+	margin-top: 30px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+body{
+	background-color: gray;
+}
